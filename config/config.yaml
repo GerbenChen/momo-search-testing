@@ -1,0 +1,24 @@
+base_url: "https://www.momoshop.com.tw/main/Main.jsp"
+search_base_url: "https://www.momoshop.com.tw/search/"
+autocomplete_api_url: "https://apisearch.momoshop.com.tw/momoSearchCloud/moec/autocompleteKeywordV3"
+
+
+default_search_keyword: "洗面乳"
+no_match_keyword: "不存在的商品xyz999zzz"
+xss_payload: "<script>alert(1)</script>"
+keyword_with_whitespace: "  洗面乳  "
+keyword_with_special_characters: "洗面乳/男用"
+
+browser:
+  headless: true
+  channel: null
+  locale: "zh-TW"
+  viewport:
+    width: 1440
+    height: 900
+
+timeout: 30000
+
+debug:
+  video: false
+  trace: true
